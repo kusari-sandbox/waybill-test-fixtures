@@ -1,0 +1,12 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "waybill_fixture_bazel_a",
+    srcs = ["a.cc"],
+    hdrs = ["a.h"],
+    deps = [
+        "@waybill_fixture_bazel_lib_x//:waybill_fixture_bazel_lib_x",
+        "@waybill_fixture_bazel_lib_y//:waybill_fixture_bazel_lib_y",
+    ],
+    visibility = ["//visibility:public"],
+)

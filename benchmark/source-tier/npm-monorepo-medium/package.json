@@ -1,0 +1,9 @@
+{
+  "name": "waybill-fixture-npm-root",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "dependencies": {
+    "waybill-fixture-npm-lib-x": "1.0.0"
+  }
+}

@@ -1,0 +1,47 @@
+version = 3
+
+[[package]]
+name = "waybill-fixture-cargo-a"
+version = "0.1.0"
+dependencies = [
+ "waybill-fixture-cargo-lib-x",
+ "waybill-fixture-cargo-lib-y",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-b"
+version = "0.1.0"
+dependencies = [
+ "waybill-fixture-cargo-a",
+ "waybill-fixture-cargo-lib-z",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-lib-x"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000001"
+
+[[package]]
+name = "waybill-fixture-cargo-lib-y"
+version = "2.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000002"
+dependencies = [
+ "waybill-fixture-cargo-lib-shared",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-lib-z"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000003"
+dependencies = [
+ "waybill-fixture-cargo-lib-shared",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-lib-shared"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000004"

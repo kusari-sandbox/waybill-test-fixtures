@@ -1,0 +1,7 @@
+{
+  "name": "waybill-fixture-npm-b",
+  "version": "0.1.0",
+  "dependencies": {
+    "waybill-fixture-npm-lib-z": "^0.5.3"
+  }
+}

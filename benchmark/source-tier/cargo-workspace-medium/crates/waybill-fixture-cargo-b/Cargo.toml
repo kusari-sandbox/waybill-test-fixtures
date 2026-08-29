@@ -1,0 +1,8 @@
+[package]
+name = "waybill-fixture-cargo-b"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+waybill-fixture-cargo-a = { path = "../waybill-fixture-cargo-a" }
+waybill-fixture-cargo-lib-z = "0.5.3"

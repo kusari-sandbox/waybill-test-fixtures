@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "waybill-fixture-gem-lib-x", "~> 1.0"
+gem "waybill-fixture-gem-lib-y", "~> 2.1"
+gem "waybill-fixture-gem-lib-z", "~> 0.5"

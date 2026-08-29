@@ -1,0 +1,6 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-shared:0.9.0=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-z:0.5.3=runtimeClasspath
+empty=annotationProcessor,compileClasspath,testAnnotationProcessor,testCompileClasspath
