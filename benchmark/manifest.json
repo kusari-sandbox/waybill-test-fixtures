@@ -1,0 +1,187 @@
+{
+  "fixtures": [
+    {
+      "name": "cargo-workspace-medium",
+      "path": "benchmark/source-tier/cargo-workspace-medium",
+      "kind": "source-tree",
+      "ecosystem": "cargo",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "npm-monorepo-medium",
+      "path": "benchmark/source-tier/npm-monorepo-medium",
+      "kind": "source-tree",
+      "ecosystem": "npm",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "pip-poetry-medium",
+      "path": "benchmark/source-tier/pip-poetry-medium",
+      "kind": "source-tree",
+      "ecosystem": "pip",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "go-module-medium",
+      "path": "benchmark/source-tier/go-module-medium",
+      "kind": "source-tree",
+      "ecosystem": "go",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "maven-multi-module-medium",
+      "path": "benchmark/source-tier/maven-multi-module-medium",
+      "kind": "source-tree",
+      "ecosystem": "maven",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "gradle-multi-project-medium",
+      "path": "benchmark/source-tier/gradle-multi-project-medium",
+      "kind": "source-tree",
+      "ecosystem": "gradle",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "gem-bundler-small",
+      "path": "benchmark/source-tier/gem-bundler-small",
+      "kind": "source-tree",
+      "ecosystem": "gem",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "fast"
+    },
+    {
+      "name": "nuget-solution-medium",
+      "path": "benchmark/source-tier/nuget-solution-medium",
+      "kind": "source-tree",
+      "ecosystem": "nuget",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "cmake-project-medium",
+      "path": "benchmark/source-tier/cmake-project-medium",
+      "kind": "source-tree",
+      "ecosystem": "cmake",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format",
+        "fingerprints-corpus"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "bazel-monorepo-medium",
+      "path": "benchmark/source-tier/bazel-monorepo-medium",
+      "kind": "source-tree",
+      "ecosystem": "bazel",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "conan-project-medium",
+      "path": "benchmark/source-tier/conan-project-medium",
+      "kind": "source-tree",
+      "ecosystem": "conan",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format",
+        "fingerprints-corpus"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "vcpkg-project-medium",
+      "path": "benchmark/source-tier/vcpkg-project-medium",
+      "kind": "source-tree",
+      "ecosystem": "vcpkg",
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format",
+        "no-deep-hash-plus-triple-format",
+        "fingerprints-corpus"
+      ],
+      "expected_scan_class": "medium"
+    },
+    {
+      "name": "debian-slim",
+      "path": "benchmark/container-images/debian-slim.tar",
+      "kind": "container-image",
+      "ecosystem": null,
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "triple-format"
+      ],
+      "expected_scan_class": "slow"
+    },
+    {
+      "name": "linux-binaries-50",
+      "path": "benchmark/binaries/linux-binaries-50",
+      "kind": "binary-set",
+      "ecosystem": null,
+      "supported_modes": [
+        "default",
+        "no-deep-hash",
+        "fingerprints-corpus"
+      ],
+      "expected_scan_class": "slow"
+    }
+  ]
+}
