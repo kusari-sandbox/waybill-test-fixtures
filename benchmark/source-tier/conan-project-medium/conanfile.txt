@@ -1,0 +1,8 @@
+[requires]
+waybill-fixture-conan-lib-x/1.0.0
+waybill-fixture-conan-lib-y/2.1.0
+waybill-fixture-conan-lib-z/0.5.3
+
+[generators]
+CMakeDeps
+CMakeToolchain

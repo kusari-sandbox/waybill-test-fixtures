@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "waybill-fixture-vcpkg-root",
+  "version": "0.1.0",
+  "dependencies": [
+    "waybill-fixture-vcpkg-lib-x",
+    "waybill-fixture-vcpkg-lib-y",
+    "waybill-fixture-vcpkg-lib-z"
+  ]
+}

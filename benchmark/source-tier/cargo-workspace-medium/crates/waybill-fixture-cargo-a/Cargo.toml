@@ -1,0 +1,8 @@
+[package]
+name = "waybill-fixture-cargo-a"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+waybill-fixture-cargo-lib-x = "1.0.0"
+waybill-fixture-cargo-lib-y = "2.1.0"

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "waybill-fixture-pip-root"
+version = "0.1.0"
+description = "Synthetic fixture for waybill m669 benchmark suite"
+authors = ["waybill <noreply@kusari.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+waybill-fixture-pip-lib-x = "^1.0.0"
+waybill-fixture-pip-lib-y = "^2.1.0"
+waybill-fixture-pip-lib-z = "^0.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

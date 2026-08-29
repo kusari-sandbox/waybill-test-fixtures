@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["crates/waybill-fixture-cargo-a", "crates/waybill-fixture-cargo-b"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"

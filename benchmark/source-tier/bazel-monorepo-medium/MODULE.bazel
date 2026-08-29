@@ -1,0 +1,8 @@
+module(
+    name = "waybill_fixture_bazel_root",
+    version = "0.1.0",
+)
+
+bazel_dep(name = "waybill_fixture_bazel_lib_x", version = "1.0.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_y", version = "2.1.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_z", version = "0.5.3")
