@@ -1,0 +1,8 @@
+#ifndef WAYBILL_FIXTURE_VCPKG_TRAITS_H
+#define WAYBILL_FIXTURE_VCPKG_TRAITS_H
+#include <string>
+namespace waybill_fixture_vcpkg {
+std::string traits_describe();
+int traits_run(int seed);
+}  // namespace waybill_fixture_vcpkg
+#endif  // WAYBILL_FIXTURE_VCPKG_TRAITS_H

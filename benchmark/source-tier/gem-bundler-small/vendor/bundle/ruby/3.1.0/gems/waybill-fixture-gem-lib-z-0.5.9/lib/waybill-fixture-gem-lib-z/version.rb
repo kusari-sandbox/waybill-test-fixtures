@@ -1,0 +1,3 @@
+module LibZ
+  VERSION = "0.5.9"
+end

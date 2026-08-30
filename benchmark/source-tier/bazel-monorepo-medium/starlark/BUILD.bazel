@@ -1,0 +1,8 @@
+exports_files([
+    "defs.bzl",
+    "test_helpers.bzl",
+    "lint.bzl",
+    "version.bzl",
+    "platforms.bzl",
+    "proto.bzl",
+])

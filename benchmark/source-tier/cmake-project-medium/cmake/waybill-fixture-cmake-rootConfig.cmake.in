@@ -1,0 +1,5 @@
+# waybill m669 benchmark fixture — synthetic config template
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+include("${CMAKE_CURRENT_LIST_DIR}/waybill-fixture-cmake-rootTargets.cmake")
+check_required_components(waybill-fixture-cmake-root)

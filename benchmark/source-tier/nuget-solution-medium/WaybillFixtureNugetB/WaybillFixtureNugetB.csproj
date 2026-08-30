@@ -2,8 +2,17 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Waybill.Fixture.Nuget.LibZ" Version="0.5.3" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Theta" Version="1.2.3" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Iota" Version="2.0.0" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Kappa" Version="1.9.9" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Lambda" Version="3.5.1" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Mu" Version="0.1.4" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Nu" Version="1.0.7" />
+    <PackageReference Include="Waybill.Fixture.Nuget.Xi" Version="2.3.6" />
   </ItemGroup>
 </Project>

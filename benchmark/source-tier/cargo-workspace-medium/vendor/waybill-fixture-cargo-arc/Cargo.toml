@@ -1,0 +1,10 @@
+[package]
+name = "waybill-fixture-cargo-arc"
+version = "0.2.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]
+waybill-fixture-cargo-dash = "3.2.0"
+waybill-fixture-cargo-grid = "2.0.5"

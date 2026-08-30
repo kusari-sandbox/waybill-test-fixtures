@@ -1,0 +1,14 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-common:0.9.0=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-alpha:1.4.0=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-beta:1.4.1=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-delta:1.4.3=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-epsilon:1.4.4=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-eta:1.4.6=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-gamma:1.4.2=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-theta:1.4.7=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-e-zeta:1.4.5=runtimeClasspath
+dev.kusari.waybill.fixture.gradle:waybill-fixture-gradle-lib-shared:0.9.0=runtimeClasspath
+empty=annotationProcessor,compileClasspath,testAnnotationProcessor,testCompileClasspath

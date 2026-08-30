@@ -1,0 +1,10 @@
+[package]
+name = "waybill-fixture-cargo-bolt"
+version = "1.1.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]
+waybill-fixture-cargo-echo = "1.4.4"
+waybill-fixture-cargo-helix = "1.0.3"

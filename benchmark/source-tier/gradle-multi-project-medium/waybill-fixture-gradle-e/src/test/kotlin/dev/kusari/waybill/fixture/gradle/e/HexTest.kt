@@ -1,0 +1,13 @@
+package dev.kusari.waybill.fixture.gradle.e
+
+import dev.kusari.waybill.fixture.gradle.e.util.Hex
+import kotlin.test.Test
+import kotlin.test.assertEquals
+
+class HexTest {
+    @Test
+    fun encodesZero() { assertEquals("00", Hex.encode(byteArrayOf(0))) }
+
+    @Test
+    fun encodesFF() { assertEquals("ff", Hex.encode(byteArrayOf(0xff.toByte()))) }
+}

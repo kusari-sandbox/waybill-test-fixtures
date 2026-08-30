@@ -1,0 +1,7 @@
+file(GLOB TEST_SRC CONFIGURE_DEPENDS "*.cpp")
+foreach(t IN LISTS TEST_SRC)
+  get_filename_component(name ${t} NAME_WE)
+  add_executable(${name} ${t})
+  target_link_libraries(${name} PRIVATE waybill_fixture_vcpkg)
+  add_test(NAME ${name} COMMAND ${name})
+endforeach()

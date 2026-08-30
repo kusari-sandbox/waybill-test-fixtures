@@ -1,0 +1,5 @@
+* text=auto
+*.bazel text
+*.bzl text
+*.cc text
+*.h text

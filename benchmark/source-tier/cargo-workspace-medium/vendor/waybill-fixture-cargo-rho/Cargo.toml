@@ -1,0 +1,10 @@
+[package]
+name = "waybill-fixture-cargo-rho"
+version = "1.2.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]
+waybill-fixture-cargo-upsilon = "1.6.0"
+waybill-fixture-cargo-psi = "1.0.9"

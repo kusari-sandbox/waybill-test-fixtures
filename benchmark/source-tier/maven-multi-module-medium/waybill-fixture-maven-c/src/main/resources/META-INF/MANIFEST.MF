@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: waybill-fixture-maven-c
+Implementation-Version: 0.1.0
+Implementation-Vendor: dev.kusari.waybill.fixture
+Build-Jdk: 17

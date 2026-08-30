@@ -1,0 +1,21 @@
+# Truncated settings.yml stub for waybill-fixture-conan benchmark.
+os:
+  Linux:
+  Macos:
+    version: ["11.0", "12.0", "13.0", "14.0"]
+  Windows:
+
+arch: [x86_64, armv8, armv7]
+
+compiler:
+  gcc:
+    version: ["11", "12", "13"]
+    libcxx: [libstdc++11, libstdc++]
+  clang:
+    version: ["15", "16", "17"]
+  apple-clang:
+    version: ["14", "15"]
+  msvc:
+    version: ["192", "193", "194"]
+
+build_type: [Debug, Release, RelWithDebInfo, MinSizeRel]

@@ -1,0 +1,12 @@
+load("//starlark:defs.bzl", "waybill_fixture_cc_module")
+
+waybill_fixture_cc_module(
+    name = "waybill_fixture_bazel_lib_08",
+    srcs = ["core.cc", "util.cc", "engine.cc"],
+    hdrs = ["core.h", "util.h"],
+    deps = [
+        "//libs/waybill_fixture_bazel_lib_06:waybill_fixture_bazel_lib_06",
+        "@waybill_fixture_bazel_lib_theta//:waybill_fixture_bazel_lib_theta",
+    ],
+    visibility = ["//visibility:public"],
+)

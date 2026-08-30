@@ -1,0 +1,10 @@
+[package]
+name = "waybill-fixture-cargo-zeta"
+version = "0.9.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]
+waybill-fixture-cargo-iota = "0.3.7"
+waybill-fixture-cargo-mu = "1.5.3"

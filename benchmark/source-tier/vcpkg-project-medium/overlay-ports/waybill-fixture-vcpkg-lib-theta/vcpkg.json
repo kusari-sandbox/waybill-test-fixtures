@@ -1,0 +1,8 @@
+{
+  "name": "waybill-fixture-vcpkg-lib-theta",
+  "version": "1.0.0",
+  "description": "Synthetic waybill fixture port for lib theta.",
+  "homepage": "https://example.invalid/waybill-fixture-vcpkg-lib-theta",
+  "license": "MIT",
+  "dependencies": []
+}

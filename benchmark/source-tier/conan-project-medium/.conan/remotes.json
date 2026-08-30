@@ -1,0 +1,9 @@
+{
+  "remotes": [
+    {
+      "name": "waybill-fixture-remote",
+      "url": "https://example.invalid/artifactory/api/conan/waybill-fixture-conan",
+      "verify_ssl": true
+    }
+  ]
+}

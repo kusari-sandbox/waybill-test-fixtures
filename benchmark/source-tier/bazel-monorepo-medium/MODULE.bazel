@@ -1,8 +1,43 @@
 module(
     name = "waybill_fixture_bazel_root",
     version = "0.1.0",
+    compatibility_level = 1,
 )
 
 bazel_dep(name = "waybill_fixture_bazel_lib_x", version = "1.0.0")
 bazel_dep(name = "waybill_fixture_bazel_lib_y", version = "2.1.0")
 bazel_dep(name = "waybill_fixture_bazel_lib_z", version = "0.5.3")
+bazel_dep(name = "waybill_fixture_bazel_lib_alpha", version = "0.9.1")
+bazel_dep(name = "waybill_fixture_bazel_lib_beta", version = "1.2.4")
+bazel_dep(name = "waybill_fixture_bazel_lib_gamma", version = "3.0.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_delta", version = "1.4.7")
+bazel_dep(name = "waybill_fixture_bazel_lib_epsilon", version = "2.0.0-rc1")
+bazel_dep(name = "waybill_fixture_bazel_lib_zeta", version = "0.3.1")
+bazel_dep(name = "waybill_fixture_bazel_lib_eta", version = "1.8.2")
+bazel_dep(name = "waybill_fixture_bazel_lib_theta", version = "4.5.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_iota", version = "0.1.2")
+bazel_dep(name = "waybill_fixture_bazel_lib_kappa", version = "2.3.4")
+bazel_dep(name = "waybill_fixture_bazel_lib_lambda", version = "1.1.1")
+bazel_dep(name = "waybill_fixture_bazel_lib_mu", version = "0.7.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_nu", version = "3.2.1")
+bazel_dep(name = "waybill_fixture_bazel_lib_xi", version = "1.0.5")
+bazel_dep(name = "waybill_fixture_bazel_lib_omicron", version = "2.4.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_pi", version = "0.8.3")
+bazel_dep(name = "waybill_fixture_bazel_lib_rho", version = "1.6.9")
+bazel_dep(name = "waybill_fixture_bazel_lib_sigma", version = "2.7.1")
+bazel_dep(name = "waybill_fixture_bazel_lib_tau", version = "0.4.4")
+bazel_dep(name = "waybill_fixture_bazel_lib_upsilon", version = "1.9.0")
+bazel_dep(name = "waybill_fixture_bazel_lib_phi", version = "3.3.3")
+bazel_dep(name = "waybill_fixture_bazel_lib_chi", version = "0.2.8")
+bazel_dep(name = "waybill_fixture_bazel_lib_psi", version = "1.5.5")
+bazel_dep(name = "waybill_fixture_bazel_lib_omega", version = "4.0.0")
+bazel_dep(name = "waybill_fixture_bazel_toolchain_a", version = "1.0.0")
+bazel_dep(name = "waybill_fixture_bazel_toolchain_b", version = "2.0.0")
+bazel_dep(name = "waybill_fixture_bazel_platforms_ext", version = "0.5.0")
+bazel_dep(name = "waybill_fixture_bazel_test_harness", version = "1.1.0", dev_dependency = True)
+bazel_dep(name = "waybill_fixture_bazel_bench_kit", version = "0.3.0", dev_dependency = True)
+bazel_dep(name = "waybill_fixture_bazel_lint_tools", version = "0.9.0", dev_dependency = True)
+
+register_toolchains(
+    "//tools:waybill_fixture_bazel_cc_toolchain",
+)

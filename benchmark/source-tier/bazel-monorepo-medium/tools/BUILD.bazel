@@ -1,0 +1,14 @@
+load("@rules_cc//cc:defs.bzl", "cc_toolchain")
+
+filegroup(
+    name = "waybill_fixture_bazel_cc_toolchain_files",
+    srcs = glob(["**/*"]),
+    visibility = ["//visibility:public"],
+)
+
+# NOTE: fixture-only stub — not a real toolchain.
+alias(
+    name = "waybill_fixture_bazel_cc_toolchain",
+    actual = ":waybill_fixture_bazel_cc_toolchain_files",
+    visibility = ["//visibility:public"],
+)

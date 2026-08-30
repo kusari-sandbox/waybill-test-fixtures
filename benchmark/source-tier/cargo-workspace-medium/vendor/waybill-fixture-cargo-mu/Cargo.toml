@@ -1,0 +1,10 @@
+[package]
+name = "waybill-fixture-cargo-mu"
+version = "1.5.3"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]
+waybill-fixture-cargo-omicron = "1.0.1"
+waybill-fixture-cargo-sigma = "3.1.4"

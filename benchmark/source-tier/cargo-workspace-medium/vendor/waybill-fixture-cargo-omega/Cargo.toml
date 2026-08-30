@@ -1,0 +1,10 @@
+[package]
+name = "waybill-fixture-cargo-omega"
+version = "2.7.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]
+waybill-fixture-cargo-core = "0.9.9"
+waybill-fixture-cargo-flux = "0.6.2"

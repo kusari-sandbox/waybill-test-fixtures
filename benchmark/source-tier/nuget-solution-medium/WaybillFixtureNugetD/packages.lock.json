@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "Waybill.Fixture.Nuget.CoreA": {
+        "type": "Direct",
+        "requested": "[1.0.1, )",
+        "resolved": "1.0.1",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=="
+      },
+      "Waybill.Fixture.Nuget.CoreB": {
+        "type": "Direct",
+        "requested": "[2.1.4, )",
+        "resolved": "2.1.4",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC==",
+        "dependencies": {
+          "Waybill.Fixture.Nuget.LibShared": "0.9.0"
+        }
+      },
+      "Waybill.Fixture.Nuget.CoreC": {
+        "type": "Direct",
+        "requested": "[0.8.7, )",
+        "resolved": "0.8.7",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=="
+      },
+      "Waybill.Fixture.Nuget.CoreD": {
+        "type": "Direct",
+        "requested": "[3.4.2, )",
+        "resolved": "3.4.2",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC==",
+        "dependencies": {
+          "Waybill.Fixture.Nuget.LibShared": "0.9.0"
+        }
+      },
+      "Waybill.Fixture.Nuget.CoreE": {
+        "type": "Direct",
+        "requested": "[1.6.0, )",
+        "resolved": "1.6.0",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=="
+      },
+      "Waybill.Fixture.Nuget.CoreF": {
+        "type": "Direct",
+        "requested": "[2.9.5, )",
+        "resolved": "2.9.5",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC==",
+        "dependencies": {
+          "Waybill.Fixture.Nuget.LibShared": "0.9.0"
+        }
+      },
+      "Waybill.Fixture.Nuget.CoreG": {
+        "type": "Direct",
+        "requested": "[0.4.3, )",
+        "resolved": "0.4.3",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=="
+      },
+      "Waybill.Fixture.Nuget.CoreH": {
+        "type": "Direct",
+        "requested": "[1.7.8, )",
+        "resolved": "1.7.8",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC==",
+        "dependencies": {
+          "Waybill.Fixture.Nuget.LibShared": "0.9.0"
+        }
+      },
+      "Waybill.Fixture.Nuget.CoreI": {
+        "type": "Direct",
+        "requested": "[2.5.0, )",
+        "resolved": "2.5.0",
+        "contentHash": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=="
+      },
+      "Waybill.Fixture.Nuget.LibShared": {
+        "type": "Transitive",
+        "resolved": "0.9.0",
+        "contentHash": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=="
+      }
+    }
+  }
+}
