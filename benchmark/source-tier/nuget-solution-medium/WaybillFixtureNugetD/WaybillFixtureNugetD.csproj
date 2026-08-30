@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreA" Version="1.0.1" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreB" Version="2.1.4" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreC" Version="0.8.7" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreD" Version="3.4.2" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreE" Version="1.6.0" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreF" Version="2.9.5" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreG" Version="0.4.3" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreH" Version="1.7.8" />
+    <PackageReference Include="Waybill.Fixture.Nuget.CoreI" Version="2.5.0" />
+  </ItemGroup>
+</Project>

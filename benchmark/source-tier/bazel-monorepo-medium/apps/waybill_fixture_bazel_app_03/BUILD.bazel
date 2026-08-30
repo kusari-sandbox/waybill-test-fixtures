@@ -1,0 +1,14 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+load("//starlark:defs.bzl", "waybill_fixture_cc_module")
+
+waybill_fixture_cc_module(
+    name = "waybill_fixture_bazel_app_03",
+    srcs = ["main.cc", "handler.cc"],
+    hdrs = ["handler.h", "config.h"],
+    deps = [
+        "//libs/waybill_fixture_bazel_lib_03:waybill_fixture_bazel_lib_03",
+        "//libs/waybill_fixture_bazel_lib_04:waybill_fixture_bazel_lib_04",
+        "@waybill_fixture_bazel_lib_gamma//:waybill_fixture_bazel_lib_gamma",
+    ],
+    visibility = ["//visibility:public"],
+)

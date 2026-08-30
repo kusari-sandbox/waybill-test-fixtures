@@ -1,0 +1,4 @@
+# Synthetic service manifest for module b
+dev.kusari.waybill.fixture.maven.service.Loader
+dev.kusari.waybill.fixture.maven.service.Reader
+dev.kusari.waybill.fixture.maven.service.Writer

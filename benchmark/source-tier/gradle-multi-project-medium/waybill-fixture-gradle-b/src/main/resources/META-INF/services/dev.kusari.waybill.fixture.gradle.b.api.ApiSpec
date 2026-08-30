@@ -1,0 +1,3 @@
+dev.kusari.waybill.fixture.gradle.b.service.UserService
+dev.kusari.waybill.fixture.gradle.b.service.SessionService
+dev.kusari.waybill.fixture.gradle.b.service.HealthService

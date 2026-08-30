@@ -1,16 +1,29 @@
 # container-images/
 
-Placeholder — the `debian-slim.tar` fixture is deferred to a follow-up
-PR against this repo per the stubs-first T014 execution strategy for
-milestone 669.
+Container-image fixtures for the m669 perf-suite benchmark.
 
-To produce it:
+## `debian-slim.tar`
+
+- **Source**: `docker pull --platform linux/amd64 debian:12-slim` (digest
+  `sha256:88200866dfff7ea7f5cbcb6ec7c8a701889efe6fe859fe64d6990e4b07ea4171`
+  as of population).
+- **Size**: ~29 MB tar (uncompressed).
+- **Populated via**: `docker save --platform linux/amd64 debian:12-slim -o debian-slim.tar`.
+- **Scan class**: `medium` (empirically ~1.8–2.1s Default mode on macOS
+  arm64; expected similar or faster on Linux x86_64 CI). 358 real
+  components discovered by waybill's dpkg reader in the initial
+  smoke run.
+
+## Refreshing the tarball
+
+When the pinned digest changes (e.g., debian:12-slim gets a security
+update), re-pull and re-save:
 
 ```sh
-docker pull debian:12-slim
-docker save debian:12-slim -o benchmark/container-images/debian-slim.tar
+docker pull --platform linux/amd64 debian:12-slim
+docker save --platform linux/amd64 debian:12-slim \
+  -o benchmark/container-images/debian-slim.tar
 ```
 
-Once the file exists, uncomment the manifest.json entry (it's already
-declared but the file itself is TBD). SC-007 fixture-cache-fetch
-budget (60s) may need re-measuring after this ~30–50 MB blob lands.
+Then bump `tests/fixtures.rev` in the mikebom main repo to the new
+fixtures-repo merge SHA + refresh `docs/perf/baseline.json`.

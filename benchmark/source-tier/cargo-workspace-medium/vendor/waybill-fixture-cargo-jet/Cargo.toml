@@ -1,0 +1,8 @@
+[package]
+name = "waybill-fixture-cargo-jet"
+version = "1.5.5"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Synthetic fixture crate for waybill m669 benchmark."
+
+[dependencies]

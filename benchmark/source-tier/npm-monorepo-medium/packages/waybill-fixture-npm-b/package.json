@@ -1,7 +1,10 @@
 {
   "name": "waybill-fixture-npm-b",
   "version": "0.1.0",
+  "main": "index.js",
   "dependencies": {
-    "waybill-fixture-npm-lib-z": "^0.5.3"
+    "waybill-fixture-npm-lib-z": "^3.16.8",
+    "waybill-fixture-npm-fs-walker": "^3.18.47",
+    "@waybill-fixture-npm-scope/writer": "^3.19.13"
   }
 }

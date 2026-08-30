@@ -1,8 +1,11 @@
 {
   "name": "waybill-fixture-npm-a",
   "version": "0.1.0",
+  "main": "index.js",
   "dependencies": {
-    "waybill-fixture-npm-lib-x": "^1.0.0",
-    "waybill-fixture-npm-lib-y": "^2.1.0"
+    "waybill-fixture-npm-lib-x": "^2.18.4",
+    "waybill-fixture-npm-lib-y": "^3.11.32",
+    "waybill-fixture-npm-parse-core": "^0.5.40",
+    "@waybill-fixture-npm-scope/reader": "^1.15.40"
   }
 }

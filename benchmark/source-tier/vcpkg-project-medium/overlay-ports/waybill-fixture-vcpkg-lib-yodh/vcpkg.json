@@ -1,0 +1,8 @@
+{
+  "name": "waybill-fixture-vcpkg-lib-yodh",
+  "version": "1.0.0",
+  "description": "Synthetic waybill fixture port for lib yodh.",
+  "homepage": "https://example.invalid/waybill-fixture-vcpkg-lib-yodh",
+  "license": "MIT",
+  "dependencies": []
+}

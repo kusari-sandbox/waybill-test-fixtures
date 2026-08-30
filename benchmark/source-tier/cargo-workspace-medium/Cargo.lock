@@ -45,3 +45,341 @@ name = "waybill-fixture-cargo-lib-shared"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0000000000000000000000000000000000000000000000000000000000000004"
+
+[[package]]
+name = "waybill-fixture-cargo-alpha"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000010"
+dependencies = [
+ "waybill-fixture-cargo-delta",
+ "waybill-fixture-cargo-eta",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-beta"
+version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000011"
+dependencies = [
+ "waybill-fixture-cargo-epsilon",
+ "waybill-fixture-cargo-theta",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-gamma"
+version = "2.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000012"
+dependencies = [
+ "waybill-fixture-cargo-zeta",
+ "waybill-fixture-cargo-iota",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-delta"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000013"
+dependencies = [
+ "waybill-fixture-cargo-eta",
+ "waybill-fixture-cargo-kappa",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-epsilon"
+version = "1.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000014"
+dependencies = [
+ "waybill-fixture-cargo-theta",
+ "waybill-fixture-cargo-lambda",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-zeta"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000015"
+dependencies = [
+ "waybill-fixture-cargo-iota",
+ "waybill-fixture-cargo-mu",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-eta"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000016"
+dependencies = [
+ "waybill-fixture-cargo-kappa",
+ "waybill-fixture-cargo-nu",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-theta"
+version = "3.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000017"
+dependencies = [
+ "waybill-fixture-cargo-lambda",
+ "waybill-fixture-cargo-xi",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-iota"
+version = "0.3.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000018"
+dependencies = [
+ "waybill-fixture-cargo-mu",
+ "waybill-fixture-cargo-omicron",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-kappa"
+version = "2.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000019"
+dependencies = [
+ "waybill-fixture-cargo-nu",
+ "waybill-fixture-cargo-pi",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-lambda"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000001a"
+dependencies = [
+ "waybill-fixture-cargo-xi",
+ "waybill-fixture-cargo-rho",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-mu"
+version = "1.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000001b"
+dependencies = [
+ "waybill-fixture-cargo-omicron",
+ "waybill-fixture-cargo-sigma",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-nu"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000001c"
+dependencies = [
+ "waybill-fixture-cargo-pi",
+ "waybill-fixture-cargo-tau",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-xi"
+version = "2.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000001d"
+dependencies = [
+ "waybill-fixture-cargo-rho",
+ "waybill-fixture-cargo-upsilon",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-omicron"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000001e"
+dependencies = [
+ "waybill-fixture-cargo-sigma",
+ "waybill-fixture-cargo-phi",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-pi"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000001f"
+dependencies = [
+ "waybill-fixture-cargo-tau",
+ "waybill-fixture-cargo-chi",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-rho"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000020"
+dependencies = [
+ "waybill-fixture-cargo-upsilon",
+ "waybill-fixture-cargo-psi",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-sigma"
+version = "3.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000021"
+dependencies = [
+ "waybill-fixture-cargo-phi",
+ "waybill-fixture-cargo-omega",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-tau"
+version = "0.4.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000022"
+dependencies = [
+ "waybill-fixture-cargo-chi",
+ "waybill-fixture-cargo-arc",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-upsilon"
+version = "1.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000023"
+dependencies = [
+ "waybill-fixture-cargo-psi",
+ "waybill-fixture-cargo-bolt",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-phi"
+version = "2.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000024"
+dependencies = [
+ "waybill-fixture-cargo-omega",
+ "waybill-fixture-cargo-core",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-chi"
+version = "0.5.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000025"
+dependencies = [
+ "waybill-fixture-cargo-arc",
+ "waybill-fixture-cargo-dash",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-psi"
+version = "1.0.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000026"
+dependencies = [
+ "waybill-fixture-cargo-bolt",
+ "waybill-fixture-cargo-echo",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-omega"
+version = "2.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000027"
+dependencies = [
+ "waybill-fixture-cargo-core",
+ "waybill-fixture-cargo-flux",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-arc"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000028"
+dependencies = [
+ "waybill-fixture-cargo-dash",
+ "waybill-fixture-cargo-grid",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-bolt"
+version = "1.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000029"
+dependencies = [
+ "waybill-fixture-cargo-echo",
+ "waybill-fixture-cargo-helix",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-core"
+version = "0.9.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000002a"
+dependencies = [
+ "waybill-fixture-cargo-flux",
+ "waybill-fixture-cargo-ion",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-dash"
+version = "3.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000002b"
+dependencies = [
+ "waybill-fixture-cargo-grid",
+ "waybill-fixture-cargo-jet",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-echo"
+version = "1.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000002c"
+dependencies = [
+ "waybill-fixture-cargo-helix",
+ "waybill-fixture-cargo-kilo",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-flux"
+version = "0.6.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000002d"
+dependencies = [
+ "waybill-fixture-cargo-ion",
+ "waybill-fixture-cargo-alpha",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-grid"
+version = "2.0.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000002e"
+dependencies = [
+ "waybill-fixture-cargo-jet",
+ "waybill-fixture-cargo-beta",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-helix"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "000000000000000000000000000000000000000000000000000000000000002f"
+dependencies = [
+ "waybill-fixture-cargo-kilo",
+ "waybill-fixture-cargo-gamma",
+]
+
+[[package]]
+name = "waybill-fixture-cargo-ion"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000030"
+
+[[package]]
+name = "waybill-fixture-cargo-jet"
+version = "1.5.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000031"
+
+[[package]]
+name = "waybill-fixture-cargo-kilo"
+version = "0.8.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0000000000000000000000000000000000000000000000000000000000000032"

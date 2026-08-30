@@ -9,9 +9,23 @@
     <version>0.1.0</version>
     <packaging>pom</packaging>
 
+    <name>waybill-fixture-maven-root</name>
+    <description>Synthetic multi-module Maven fixture for waybill benchmark harness.</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <waybill.fixture.shared.version>0.9.0</waybill.fixture.shared.version>
+    </properties>
+
     <modules>
         <module>waybill-fixture-maven-a</module>
         <module>waybill-fixture-maven-b</module>
+        <module>waybill-fixture-maven-c</module>
+        <module>waybill-fixture-maven-d</module>
+        <module>waybill-fixture-maven-e</module>
+        <module>waybill-fixture-maven-f</module>
     </modules>
 
     <dependencyManagement>
@@ -19,7 +33,17 @@
             <dependency>
                 <groupId>dev.kusari.waybill.fixture.maven</groupId>
                 <artifactId>waybill-fixture-maven-lib-shared</artifactId>
-                <version>0.9.0</version>
+                <version>${waybill.fixture.shared.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dev.kusari.waybill.fixture.maven</groupId>
+                <artifactId>waybill-fixture-maven-lib-core</artifactId>
+                <version>1.4.2</version>
+            </dependency>
+            <dependency>
+                <groupId>dev.kusari.waybill.fixture.maven</groupId>
+                <artifactId>waybill-fixture-maven-lib-util</artifactId>
+                <version>2.0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaybillFixtureNugetA", "Way
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaybillFixtureNugetB", "WaybillFixtureNugetB\WaybillFixtureNugetB.csproj", "{22222222-2222-2222-2222-222222222222}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaybillFixtureNugetC", "WaybillFixtureNugetC\WaybillFixtureNugetC.csproj", "{33333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaybillFixtureNugetD", "WaybillFixtureNugetD\WaybillFixtureNugetD.csproj", "{44444444-4444-4444-4444-444444444444}"
+EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
         Debug|Any CPU = Debug|Any CPU

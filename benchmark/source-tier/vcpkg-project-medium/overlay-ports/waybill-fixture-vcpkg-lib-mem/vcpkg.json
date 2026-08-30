@@ -1,0 +1,8 @@
+{
+  "name": "waybill-fixture-vcpkg-lib-mem",
+  "version": "1.0.0",
+  "description": "Synthetic waybill fixture port for lib mem.",
+  "homepage": "https://example.invalid/waybill-fixture-vcpkg-lib-mem",
+  "license": "MIT",
+  "dependencies": []
+}

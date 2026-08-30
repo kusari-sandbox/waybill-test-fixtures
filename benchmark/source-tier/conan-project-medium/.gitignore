@@ -1,0 +1,7 @@
+build/
+CMakeUserPresets.json
+conan_toolchain.cmake
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj

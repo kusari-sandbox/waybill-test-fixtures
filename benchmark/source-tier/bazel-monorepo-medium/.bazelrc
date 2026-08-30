@@ -1,0 +1,10 @@
+# waybill fixture bazel monorepo — .bazelrc
+build --enable_bzlmod
+build --incompatible_enable_cc_toolchain_resolution
+build --cxxopt=-std=c++17
+build --host_cxxopt=-std=c++17
+
+test --test_output=errors
+test --test_summary=terse
+
+common --lockfile_mode=off

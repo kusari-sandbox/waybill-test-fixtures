@@ -1,49 +1,441 @@
 # This file is @generated automatically by Poetry (synthetic — waybill m669).
 
 [[package]]
-name = "waybill-fixture-pip-lib-x"
+name = "waybill-fixture-pip-alpha"
+version = "1.2.0"
+description = "Synthetic fixture package — alpha module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_alpha-1.2.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000001"},
+    {file = "waybill_fixture_pip_alpha-1.2.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000002"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-beta"
+version = "0.9.1"
+description = "Synthetic fixture package — beta module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_beta-0.9.1-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000003"},
+    {file = "waybill_fixture_pip_beta-0.9.1.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000004"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-shared-a = ">=1.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-gamma"
+version = "2.0.4"
+description = "Synthetic fixture package — gamma module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_gamma-2.0.4-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000005"},
+    {file = "waybill_fixture_pip_gamma-2.0.4.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000006"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-shared-b = ">=0.4.0"
+
+[[package]]
+name = "waybill-fixture-pip-delta"
+version = "1.5.3"
+description = "Synthetic fixture package — delta module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_delta-1.5.3-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000007"},
+    {file = "waybill_fixture_pip_delta-1.5.3.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000008"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-io = ">=1.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-epsilon"
+version = "0.3.0"
+description = "Synthetic fixture package — epsilon module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_epsilon-0.3.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000009"},
+    {file = "waybill_fixture_pip_epsilon-0.3.0.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000000a"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-zeta"
+version = "1.0.7"
+description = "Synthetic fixture package — zeta module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_zeta-1.0.7-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000000b"},
+    {file = "waybill_fixture_pip_zeta-1.0.7.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000000c"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-log = ">=1.1.0"
+
+[[package]]
+name = "waybill-fixture-pip-eta"
+version = "2.2.1"
+description = "Synthetic fixture package — eta module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_eta-2.2.1-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000000d"},
+    {file = "waybill_fixture_pip_eta-2.2.1.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000000e"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-shared-a = ">=1.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-theta"
+version = "0.8.2"
+description = "Synthetic fixture package — theta module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_theta-0.8.2-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000000f"},
+    {file = "waybill_fixture_pip_theta-0.8.2.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000010"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-iota"
+version = "1.1.0"
+description = "Synthetic fixture package — iota module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_iota-1.1.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000011"},
+    {file = "waybill_fixture_pip_iota-1.1.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000012"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-net = ">=0.7.0"
+
+[[package]]
+name = "waybill-fixture-pip-kappa"
+version = "0.5.0"
+description = "Synthetic fixture package — kappa module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_kappa-0.5.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000013"},
+    {file = "waybill_fixture_pip_kappa-0.5.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000014"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-lambda"
+version = "3.0.0"
+description = "Synthetic fixture package — lambda module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_lambda-3.0.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000015"},
+    {file = "waybill_fixture_pip_lambda-3.0.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000016"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-time = ">=2.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-mu"
+version = "1.4.2"
+description = "Synthetic fixture package — mu module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_mu-1.4.2-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000017"},
+    {file = "waybill_fixture_pip_mu-1.4.2.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000018"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-shared-b = ">=0.4.0"
+
+[[package]]
+name = "waybill-fixture-pip-nu"
+version = "0.6.1"
+description = "Synthetic fixture package — nu module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_nu-0.6.1-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000019"},
+    {file = "waybill_fixture_pip_nu-0.6.1.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000001a"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-xi"
+version = "1.9.0"
+description = "Synthetic fixture package — xi module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_xi-1.9.0-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000001b"},
+    {file = "waybill_fixture_pip_xi-1.9.0.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000001c"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-io = ">=1.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-omicron"
+version = "0.2.0"
+description = "Synthetic fixture package — omicron module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_omicron-0.2.0-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000001d"},
+    {file = "waybill_fixture_pip_omicron-0.2.0.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000001e"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-pi"
+version = "2.5.1"
+description = "Synthetic fixture package — pi module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_pi-2.5.1-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000001f"},
+    {file = "waybill_fixture_pip_pi-2.5.1.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000020"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-math = ">=1.5.0"
+
+[[package]]
+name = "waybill-fixture-pip-rho"
 version = "1.0.0"
-description = "Synthetic fixture package"
+description = "Synthetic fixture package — rho module"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "waybill_fixture_pip_lib_x-1.0.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000001"},
+    {file = "waybill_fixture_pip_rho-1.0.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000021"},
+    {file = "waybill_fixture_pip_rho-1.0.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000022"},
 ]
 
 [[package]]
-name = "waybill-fixture-pip-lib-y"
+name = "waybill-fixture-pip-sigma"
+version = "0.7.4"
+description = "Synthetic fixture package — sigma module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_sigma-0.7.4-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000023"},
+    {file = "waybill_fixture_pip_sigma-0.7.4.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000024"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-log = ">=1.1.0"
+
+[[package]]
+name = "waybill-fixture-pip-tau"
+version = "1.3.3"
+description = "Synthetic fixture package — tau module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_tau-1.3.3-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000025"},
+    {file = "waybill_fixture_pip_tau-1.3.3.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000026"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-upsilon"
+version = "2.0.0"
+description = "Synthetic fixture package — upsilon module"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_upsilon-2.0.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000027"},
+    {file = "waybill_fixture_pip_upsilon-2.0.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000028"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-net = ">=0.7.0"
+
+[[package]]
+name = "waybill-fixture-pip-shared-a"
+version = "1.2.5"
+description = "Synthetic fixture package — shared-a helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_shared_a-1.2.5-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000029"},
+    {file = "waybill_fixture_pip_shared_a-1.2.5.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000002a"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-util-time = ">=2.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-shared-b"
+version = "0.4.9"
+description = "Synthetic fixture package — shared-b helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_shared_b-0.4.9-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000002b"},
+    {file = "waybill_fixture_pip_shared_b-0.4.9.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000002c"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-shared-c"
+version = "1.0.0"
+description = "Synthetic fixture package — shared-c helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_shared_c-1.0.0-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000002d"},
+    {file = "waybill_fixture_pip_shared_c-1.0.0.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000002e"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-util-io"
+version = "1.4.0"
+description = "Synthetic fixture package — io helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_util_io-1.4.0-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000002f"},
+    {file = "waybill_fixture_pip_util_io-1.4.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000030"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-util-log"
+version = "1.2.1"
+description = "Synthetic fixture package — log helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_util_log-1.2.1-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000031"},
+    {file = "waybill_fixture_pip_util_log-1.2.1.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000032"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-util-net"
+version = "0.8.0"
+description = "Synthetic fixture package — net helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_util_net-0.8.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000033"},
+    {file = "waybill_fixture_pip_util_net-0.8.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000034"},
+]
+
+[package.dependencies]
+waybill-fixture-pip-shared-c = ">=1.0.0"
+
+[[package]]
+name = "waybill-fixture-pip-util-time"
 version = "2.1.0"
-description = "Synthetic fixture package"
+description = "Synthetic fixture package — time helper"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "waybill_fixture_pip_lib_y-2.1.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000002"},
+    {file = "waybill_fixture_pip_util_time-2.1.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000035"},
+    {file = "waybill_fixture_pip_util_time-2.1.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000036"},
 ]
 
-[package.dependencies]
-waybill-fixture-pip-lib-shared = ">=0.9.0"
-
 [[package]]
-name = "waybill-fixture-pip-lib-z"
-version = "0.5.3"
-description = "Synthetic fixture package"
+name = "waybill-fixture-pip-util-math"
+version = "1.6.0"
+description = "Synthetic fixture package — math helper"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "waybill_fixture_pip_lib_z-0.5.3-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000003"},
+    {file = "waybill_fixture_pip_util_math-1.6.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000037"},
+    {file = "waybill_fixture_pip_util_math-1.6.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000038"},
 ]
 
-[package.dependencies]
-waybill-fixture-pip-lib-shared = ">=0.9.0"
-
 [[package]]
-name = "waybill-fixture-pip-lib-shared"
-version = "0.9.0"
-description = "Synthetic fixture package"
+name = "waybill-fixture-pip-util-str"
+version = "0.9.5"
+description = "Synthetic fixture package — str helper"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "waybill_fixture_pip_lib_shared-0.9.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000004"},
+    {file = "waybill_fixture_pip_util_str-0.9.5-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000039"},
+    {file = "waybill_fixture_pip_util_str-0.9.5.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000003a"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-util-fs"
+version = "1.1.3"
+description = "Synthetic fixture package — fs helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_util_fs-1.1.3-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000003b"},
+    {file = "waybill_fixture_pip_util_fs-1.1.3.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000003c"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-util-cfg"
+version = "0.4.0"
+description = "Synthetic fixture package — cfg helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_util_cfg-0.4.0-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000003d"},
+    {file = "waybill_fixture_pip_util_cfg-0.4.0.tar.gz", hash = "sha256:000000000000000000000000000000000000000000000000000000000000003e"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-util-sig"
+version = "1.0.2"
+description = "Synthetic fixture package — sig helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_util_sig-1.0.2-py3-none-any.whl", hash = "sha256:000000000000000000000000000000000000000000000000000000000000003f"},
+    {file = "waybill_fixture_pip_util_sig-1.0.2.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000040"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-support-a"
+version = "0.3.1"
+description = "Synthetic fixture package — support-a helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_support_a-0.3.1-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000041"},
+    {file = "waybill_fixture_pip_support_a-0.3.1.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000042"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-support-b"
+version = "1.0.0"
+description = "Synthetic fixture package — support-b helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_support_b-1.0.0-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000043"},
+    {file = "waybill_fixture_pip_support_b-1.0.0.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000044"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-support-c"
+version = "0.7.7"
+description = "Synthetic fixture package — support-c helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_support_c-0.7.7-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000045"},
+    {file = "waybill_fixture_pip_support_c-0.7.7.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000046"},
+]
+
+[[package]]
+name = "waybill-fixture-pip-support-d"
+version = "2.0.1"
+description = "Synthetic fixture package — support-d helper"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "waybill_fixture_pip_support_d-2.0.1-py3-none-any.whl", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000047"},
+    {file = "waybill_fixture_pip_support_d-2.0.1.tar.gz", hash = "sha256:0000000000000000000000000000000000000000000000000000000000000048"},
 ]
 
 [metadata]

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>dev.kusari.waybill.fixture.maven</groupId>
+        <artifactId>waybill-fixture-maven-root</artifactId>
+        <version>0.1.0</version>
+    </parent>
+
+    <artifactId>waybill-fixture-maven-e</artifactId>
+    <name>waybill-fixture-maven-e</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-shared</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-io-e</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-net-e</artifactId>
+            <version>0.7.3</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-parser-e</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-logging-e</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-config-e</artifactId>
+            <version>2.4.6</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-cache-e</artifactId>
+            <version>0.3.1</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>dev.kusari.waybill.fixture.maven</groupId>
+            <artifactId>waybill-fixture-maven-lib-testkit-e</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

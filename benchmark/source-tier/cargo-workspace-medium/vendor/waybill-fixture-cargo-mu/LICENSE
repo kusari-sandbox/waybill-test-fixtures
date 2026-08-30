@@ -1,0 +1,19 @@
+MIT License (synthetic — waybill m669 benchmark fixture)
+
+Copyright (c) 2026 waybill fixtures
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this synthetic fixture, to deal in it without restriction,
+including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies, and to permit
+persons to whom to whom it is furnished to do so.
+
+This is a synthetic test fixture. It provides no software functionality
+and is not intended for production use. All package names beginning
+with "waybill-fixture-" are reserved test-only identifiers.
+
+THE FIXTURE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+END OF SYNTHETIC LICENSE
